@@ -3,7 +3,7 @@ from fpdf import FPDF
 from telegram import Update
 from telegram.ext import ApplicationBuilder, CommandHandler, MessageHandler, ContextTypes, filters
 
-USER_SESSIONS = {}  # Guarda fotos y titulo para cada usuario
+USER_SESSIONS = {}  # Guarda fotos y título para cada usuario
 
 TOKEN = os.getenv("8563969039:AAFlK4oCOL104vx9enzOa5QSx5KOuXxTPY0")  # Render guardará el token aquí
 
